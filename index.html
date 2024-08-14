@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="ios-UI">
+        <nav id="header">
+       <span id="menu"><i class="fa-solid fa-bars " style="color: #58195d; --fa-rotate-angle: 432344deg;"></i></span>
+       <span id="logo">WORLD CLOCK</span>
+        </nav>
+   
+<div id="analog-clock">
+    <!-- <div class="globe"><i class="fa-solid fa-globe"></i>
+        <select  id="timeZone" hidden>
+            <option value="Asia/Kolkata">Kolkata (Asia/Kolkata)</option>
+            <option value="America/New_York">New York (America/New_York)</option>
+            <option value="Europe/London">London (Europe/London)</option>
+           
+            <option value="Asia/Tokyo">Tokyo (Asia/Tokyo)</option>
+        </select>
+    </div> -->
+
+    <div class="globe"><i class="fa-solid fa-globe"></i> </div>
+
+   
+
+ <div class=" hand hour"></div>
+ <div class="hand minute"></div>
+ <div class="hand second"></div>
+  <div class="dot"></div>
+</div>
+<div id="clockdesignbox">
+    <div class="cdbox partsOfTheDayBox"></div>
+    <div class="cdbox designLogo"><i class="fa-solid fa-clock" style="color: #2b172c;"></i> </div>
+</div>
+
+<ul id="dropDownMenu" class="hidden"  >
+    
+    <li data-value="Asia/Kolkata" >Kolkata IN</li>
+    <li data-value="America/New_York">New York USA</li>
+    <li data-value="Europe/London">London GB</li>
+    <li data-value="Asia/Tokyo">Tokyo JP</li>
+    <li data-value="Australia/Sydney">Sydney AU</li>
+    <li data-value="Europe/Berlin">Berlin DE</li>
+    <li data-value="Africa/Cairo">Cairo EG</li>
+    <li data-value="Asia/Dubai">Dubai AE</li>
+    <li data-value="Asia/Shanghai">Shanghai CN</li>
+    <li data-value="America/Los_Angeles">Los Angeles USA</li>
+    <li data-value="Europe/Moscow">Moscow RU</li>
+    <li data-value="Asia/Singapore">Singapore SG</li>
+    <li data-value="America/Toronto">Toronto CA</li>
+    <li data-value="Asia/Seoul">Seoul KR</li>
+    <li data-value="Europe/Paris">Paris FR</li>
+    <li data-value="America/Sao_Paulo">São Paulo BR</li>
+    <li data-value="Africa/Johannesburg">Johannesburg ZA</li>
+    <li data-value="America/Mexico_City">Mexico City MX</li>
+    <li data-value="Europe/Rome">Rome IT</li>
+    <li data-value="Asia/Hong_Kong">Hong Kong HK</li>
+    <li data-value="America/Chicago">Chicago USA</li>
+    <li data-value="Europe/Amsterdam">Amsterdam NL</li>
+    <li data-value="Australia/Melbourne">Melbourne AU</li>
+    <li data-value="Asia/Kuala_Lumpur">Kuala Lumpur MY</li>
+    
+    
+    
+</ul>
+<ul id="dropDownMenu2" class="clockDesign hidden" >
+    
+    <li data-value="1">ChronoCraft 1</li>
+    <li data-value="2">ChronoCraft 2</li>
+    <li data-value="3">ChronoCraft 3</li>
+    <li data-value="4">ChronoCraft 4</li>
+    <li data-value="5">ChronoCraft 5</li>
+    
+</ul>
+ 
+<footer>
+<ul class="footerOption">
+<li><a href="index.html" ><i class="fa-solid fa-clock " ></i></a></li>
+<li><a href="#"><i class="fa-solid fa-stopwatch" ></i></a></li>
+<li><a href="#"><i class="fa-solid fa-calendar-days"></i></a></li>
+<li><a href="#"><i class="fa-solid fa-bed" ></i></a></li>
+</ul>
+
+</footer>
+    </section>
+
+    <script src="clock.js"></script>
+</body>
+
+</html>
